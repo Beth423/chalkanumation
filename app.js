@@ -1,2 +1,7 @@
-console.log(chalk.blue("Hello world!"));
-console.log(chalk .green ("stuff "))
+const chalkAnimation = require("chalk-animation");
+const rainbow = chalkAnimation.rainbow("Lorem ipsum").stop(); // Don't start the animation
+
+rainbow.render(); // Display the first frame
+
+const frame = rainbow.frame(); // Get the second frame
+console.log(frame);

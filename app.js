@@ -1,7 +1,10 @@
+//standerd chalk color here 
+const chalk = require("chalk");
 const chalkAnimation = require("chalk-animation");
-const rainbow = chalkAnimation.rainbow("Lorem ipsum").stop(); // Don't start the animation
 
-rainbow.render(); // Display the first frame
-
-const frame = rainbow.frame(); // Get the second frame
-console.log(frame);
+console.log(chalk.cyanBright("this is a solide color  "))
+//?rainbow here 
+setTimeout(() => {
+    rainbow.stop(); // Animation stops
+}, 5000);
+chalkAnimation.rainbow("the longer the wards the more color");

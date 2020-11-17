@@ -1,7 +1,6 @@
 //Elizabeth Carroll
 //standerd chalk color here 
 const chalk = require("chalk");
-const chalkAnimationrain1 = require("chalk-animation");
 const lind1 = require("chalk-animation");
 const write = console.log ;
 write(
@@ -11,8 +10,7 @@ write(
 );
 
 
-// console.log(chalk.cyanBright("chapter one "))
-// console.log(chalk.cyan("for love is always nere . wormth "))
+
 // //?rainbow here 
 setTimeout(() => {
     rainbow.stop(); // Animation stops
